@@ -18,8 +18,8 @@ const About = () => {
           <div className="relative">
             <img
               src={profileAbout}
-              alt="Alex Morgan in workspace"
-              className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
+              alt="Logo IPROCOM - Empresa especializada en inyección de componentes plásticos"
+              className="rounded-2xl shadow-2xl w-full h-[300px] md:h-[350px] object-contain bg-white/50 dark:bg-black/50"
             />
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary/10 to-transparent"></div>
           </div>
@@ -48,7 +48,7 @@ const About = () => {
             </div>
             
             {/* Skills/Stats */}
-            <div className="grid grid-cols-2 gap-8 pt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 text-center md:text-left">
               <div>
                 <h3 className="text-3xl font-bold text-primary mb-2">19+</h3>
                 <p className="text-muted-foreground">Años de Experiencia</p>

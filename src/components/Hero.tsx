@@ -75,10 +75,10 @@ END:VCARD`;
         }}
       />
 
-      <div className="container mx-auto px-6 relative z-20">
+      <div className="container mx-auto px-6 py-8 lg:py-0 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Profile Photo */}
-          <div className="flex justify-center lg:justify-end order-2 lg:order-1">
+          <div className="flex justify-center lg:justify-end order-1 lg:order-1">
             <div className="relative">
               {/* Fondo adaptativo según modo */}
               <div className={`absolute inset-0 rounded-full backdrop-blur-sm shadow-2xl ${
@@ -87,14 +87,14 @@ END:VCARD`;
               <img
                 src={profileImage}
                 alt="Emma García - Coordinadora de compras IPROCOM"
-                className="w-80 h-80 rounded-full object-cover profile-glow relative z-10"
+                className="w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover profile-glow relative z-10"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent z-20"></div>
             </div>
           </div>
 
           {/* Right side - Content */}
-          <div className="text-center lg:text-left order-1 lg:order-2">
+          <div className="text-center lg:text-left order-2 lg:order-2 px-4 lg:px-0">
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent">
               Emma García
             </h1>
